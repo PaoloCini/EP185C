@@ -1,0 +1,20 @@
+incollatrice	EPG185
+
+	HMI	EPG_1CE	Vision 608
+	PLC	EPG_1CE (6Kstep)	Omron CJ2M-CPU32 + MD212
+				      "      CJ1W-TC004
+				2 x  "     CJ1W-ID211
+				2 x  "     CJ1W-OD212
+			PS	Omron  CJ1W-PD025
+	Assi	separatore	Schneider  LXM32MD12N4 su BMH701Px6Axx
+		tappeto		Schneider  LXM32MD30N4 su BMH1401Px6Axx
+		rulli colla		Schneider  ATV320U04N4C su asincrono 0,37 KW
+		antibolle		Schneider  ATV320U04N4C su asincrono 0,37 KW
+
+Rete Eth/IP rivestitrice	EPG_1CE
+     indirizzi	cpu		1
+		rulli colla		13	W400	W406
+		antibolle		18	W412	W418
+		tappeto		14	W300	W320
+		mettifoglio	15	W340	W360
+
