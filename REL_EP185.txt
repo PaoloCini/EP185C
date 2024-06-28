@@ -1,0 +1,51 @@
+EUROPROGETTI
+
+EP185 2024		Specifiche
+
+Incollatrice 
+	HMI	EPG_1CE	Vision 608
+	PLC	EPG_1CE (6Kstep)	Omron CJ2M-CPU32 + MD212
+				      "      CJ1W-TC004
+				2 x  "     CJ1W-ID211
+				2 x  "     CJ1W-OD212
+			PS	Omron  CJ1W-PD025
+	Assi	separatore	Schneider  LXM32MD12N4 su BMH701Px6Axx
+		tappeto		Schneider  LXM32MD30N4 su BMH1401Px6Axx
+		rulli colla		Schneider  ATV320U04N4C su asincrono 0,37 KW
+		antibolle		Schneider  ATV320U04N4C su asincrono 0,37 KW
+
+centratore
+	PLC	CEN_6EC (2Kstep)	Omron CP1L-EM
+	Assi	tampone		Schneider  ATV320U04N4C su asincrono 0,37 KW
+		aspirazione	Schneider  ATV320U15N4C su asincrono 2 x 0,75 KW
+
+cucitrice
+	HMI	EPQ_1FA 	2 x Vision 607
+	PLC	EPQ_1FA (8Kstep) Omron CJ2M-CPU32 + 2 x MD212
+				      "      CJ1W-NC413
+				      "      CJ1W-TC004
+				4 x  "     CJ1W-ID211
+				2 x  "     CJ1W-OD212
+			PS	Omron  CJ1W-PD025
+	Assi	forma cuc.	Schneider  LXM32MD30N4 su BMH1401Px6Fxx
+		pressore	.	Schneider  LXM32MD30N4 su BMH1003Px6Axx
+		estrattore	.	Schneider  LXM32MD18N4 su BMH703Px6Fxx
+		spintore	.	Schneider  LXM32MD18N4 su BMH703Px6Fxx
+		nastrini		4 x Schneider  LXM28AU01M3X su BCH2MB013XCA5C
+		rulli cinghie	Schneider  ATV320U04N4C su asincrono 0,25 KW
+		tappeto scatole	Schneider  ATV320U04N4C su asincrono 0,18 KW
+   note	- estrattore e spintore potrebbero essere senza freno
+	- introduttore pneumatico
+	- temperatura nastrini a 2 zone - collegamento in serie
+
+rivestitrice
+	HMI	EPW_3ND	Vision 608
+	PLC	EPW_3ND (14Kstep) Omron CJ2M-CPU33 + 2 x MD212
+				      "      CJ1W-ID262
+				      "      CJ1W-OD232
+				      "      CJ1W-OD212
+			PS	Omron  CJ1W-PD025
+	Assi	bracci		Schneider  LXM32MD30N4 su BMH1003Px6Axx
+		forma		Schneider  LXM32MD30N4 su BMH1401Px6Fxx
+		estrattore		Schneider  LXM32MD18N4 su BMH0703Px6Fxx
+		controforma	Schneider  LXM32MD12N4 su BMH0702Px6Axx
