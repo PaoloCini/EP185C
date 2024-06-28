@@ -1,0 +1,18 @@
+28/06/2024
+			Pag.92 'Manuale Carrelli' Ps Lame cambiato a momentaneo come nel progetto vecchio.
+27/06/2024
+			
+			Bug fixed: Pag.62 Regolazioni Pinze: Ps 'HOME ASSI' cambiata var. di colore da w20.0 a w20.5 
+			Pag.59 Parametri - Formato. Credo che occorre integrare la scritta 'Controforma accostata' con 'Altezza Lame'; la variabile associata
+			è quella di altezza lame e tale parametro influisce su quello di forma accostata che è variabile e dipende dall'altezza scatola.
+26/06/2024
+			HMI EPW_3NE
+			Pag.50 
+			Pag.45 (Configurazione - Ciclo) corretta traduzione in spagnolo di controforma pneumatica nel ps di controfoma Pneumatica.
+			Pag.23 Ingressi Riv 2: nel pannello e nello schema c'è M_T_Trasformatore_Drivers. Inserirlo anche nel Plc. 
+			
+21/06/2024
+			HMI EPW_3NE
+			Arrivato alla diagnostica IO pag.21 Da fare
+
+			
