@@ -1,0 +1,29 @@
+cucitrice	EPQ185C/1
+
+	HMI	EPQ_1FA 	2 x Vision 607				modificato 2BA
+	PLC	EPQ_1FA (8Kstep) Omron CJ2M-CPU32 + 2 x MD212		modificato 2BA
+				      "      CJ1W-NC413
+				      "      CJ1W-TC004
+				4 x  "     CJ1W-ID211
+				2 x  "     CJ1W-OD212
+			PS	Omron  CJ1W-PD025
+	Assi	forma cuc.	Schneider  LXM32MD30N4 su BMH1401Px6Fxx
+		pressore	.	Schneider  LXM32MD30N4 su BMH1003Px6Axx
+		estrattore	.	Schneider  LXM32MD18N4 su BMH703Px6Fxx
+		spintore	.	Schneider  LXM32MD18N4 su BMH703Px6Fxx
+		nastrini		4 x Schneider  LXM28AU01M3X su BCH2MB013XCA5C
+		rulli cinghie	Schneider  ATV320U04N4C su asincrono 0,25 KW
+		tappeto scatole	Schneider  ATV320U04N4C su asincrono 0,18 KW
+   note	- estrattore e spintore potrebbero essere senza freno
+	- introduttore pneumatico
+	- temperatura nastrini a 2 zone - collegamento in serie
+
+Rete Eth/IP cucitrice	EPQ_1FA   (o 2EB)						modificato 2BA
+     indirizzi	cpu		3
+	v	rulli cartone	31	W380	W390
+	v	tappeto scatole	32	W400	W410
+	v	forma		33	W260	W280	PLS0	HSC1	D300
+	v	estrattore		34	W420	W440	PLS2		D330
+	v	spintore		35	W460	W480	PLS3		D360
+	v	pressore		36	W160	W180	PLS1	HSC0	D270
+  disponibile	(introduttore	30	W360	W370)
